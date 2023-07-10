@@ -6,11 +6,11 @@ body {
 }
 
 header {
-    background: #333;
-    color: white;
+    background-color: #f5f5f5;
     padding: 20px;
     text-align: center;
 }
+
 
 .profile-img img {
     width: 150px;
@@ -22,6 +22,19 @@ header {
 nav {
     background: #ddd;
 }
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
 
 nav ul {
     list-style: none;
@@ -39,13 +52,13 @@ nav ul li a {
     color: #333;
 }
 
-main {
-    padding: 20px;
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
 }
 
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+footer ul li {
+    display: inline;
+    margin-right: 10px;
 }
