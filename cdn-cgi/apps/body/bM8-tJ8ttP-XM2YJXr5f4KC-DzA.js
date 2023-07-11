@@ -1,0 +1,13 @@
+;if(CloudflareApps.matchPage(CloudflareApps.installs['vRvHUWgDnjCL'].URLPatterns)){(function(){'use strict';if(!window.addEventListener)return;var options=CloudflareApps.installs['vRvHUWgDnjCL'].options;var smartlayer;var layerCallback=function(layer){smartlayer=layer;};function getConfigurations(){var configs={};var desktopConfigs={counts:options.counts,numPreferredServices:options.numPreferredServices,mobile:false,position:options.position.desktopPosition,theme:options.theme,};var desktopPco='share';if(options['style']==='bordered'){desktopPco='customsidebar';desktopConfigs['offset']={top:'20%'};delete desktopConfigs.theme;}
+if(options.position.desktopPosition!=='hide'){configs[desktopPco]=desktopConfigs;}
+var mobileConfigs={counts:options.counts,numPreferredServices:options.numPreferredServices,mobileButtonSize:options.mobileButtonSize,mobile:true,position:options.position.mobilePosition,theme:options.theme,};var mobilePco='sharedock';if(options['style']==='bordered'){mobilePco='custommobilebar';mobileConfigs.textColor='#222222';delete mobileConfigs.theme;}
+if(options.position.mobilePosition!=='hide'){configs[mobilePco]=mobileConfigs;}
+if("vRvHUWgDnjCL"==='preview'){desktopConfigs.responsive={maxWidth:600};mobileConfigs.responsive={maxWidth:600}}
+return configs;};var setupAddthisTools=setInterval(function(){if(typeof window.addthis!=='undefined'){window.clearInterval(setupAddthisTools);if("vRvHUWgDnjCL"==='preview'){var parsed=CloudflareApps.proxy.originalURL.parsed;window.addthis_share={url:parsed.scheme+'://'+parsed.host+parsed.path,title:document.title}}
+window.addthis.layers(getConfigurations(),layerCallback);}},200);var _postMessage=window.postMessage;if("vRvHUWgDnjCL"==='preview'){window.postMessage=function postMessage(){'[native code]'
+_postMessage.apply(this,arguments)}}
+function updateElement(){if(typeof window.addthis!=='undefined'){if(smartlayer&&smartlayer.destroy){smartlayer.destroy();}
+window.addthis.layers(getConfigurations(),layerCallback);}}
+function bootstrap(){window.addthis_config={ignore_server_config:true};window.addthis_plugin_info={info_status:'enabled',cms_name:'CloudFlare',plugin_name:'addthis-cloudflare-plugin',plugin_version:'1.0.0',plugin_mode:'CloudFlare'};var head=document.getElementsByTagName('head')[0];var script=document.createElement('script');script.type='text/javascript';script.src='https://s7.addthis.com/js/300/addthis_widget.js';head.appendChild(script);script.onload=setupAddthisTools;}
+if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',bootstrap);}else{bootstrap();}
+window.CloudflareApps.installs['vRvHUWgDnjCL'].scope={setOptions(nextOptions){options=nextOptions;updateElement();}}}());}

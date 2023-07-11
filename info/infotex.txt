@@ -1,0 +1,374 @@
+
+
+Generate a semantic and accessible HTML and (framework) CSS [UI component] consisting of [component parts]. The [component parts] should be [layout].
+You have a CV written in LaTeX and you want to convert it into a very fancy website using HTML, CSS, and JavaScript. You are seeking guidance on how to approach this task and make the website visually appealing and interactive. Engage in a conversation with an AI web developer who can provide you with step-by-step instructions, best practices, and creative ideas to transform your CV into an impressive online portfolio.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Marco T.}{Teran}
+
+%%% Social
+\email{marco.tulio.teran@gmail.com}
+\homepage{marcoteran.github.io}
+\github{marcoteran}
+\linkedin{marcoteran}
+
+%%% Optionals
+\position{Electronic Engineer, Ms.C.{\enskip\cdotp\enskip}Assistant Professor}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{Marco T. Teran~~~·~~~Curriculum Vitae}
+{\thepage}
+
+\cvsection{Education}
+\begin{cventries}
+	
+	\edentryen
+	{PhD in Engineering} %{\enskip\cdotp\enskip} \textit{Specialty: Electronic Engineering.}
+	{Pontificia Universidad Javeriana}
+	{Bogotá, Colombia}
+	{Jan. 2016~-~present}
+	{}
+	{}
+	{A Framework for Micro-localization of mobile objects Based on Heterogeneous Information Fusion}
+	{
+	}
+	{Electronic Engineering}
+	
+	\edentryen
+	{M.Eng. in Electronics}
+	{Bauman Moscow State Technical University}
+	{Moscow, Russian Federation}
+	{Sept. 2011~-~Jun. 2013}
+	{Degree validated by the National Ministry of Education according to resolution No. 526 of January 17, 2014.}
+	{5/5}
+	{Development of a Software Defined Radio (SDR) receiver for the Galileo GNSS system}
+	{	
+	}
+	{Electronic Systems and Radar, Navigation and Control Devices}
+	
+	
+	\edentryen
+	{Electronic Engineer}
+	{Bauman Moscow State Technical University}
+	{Moscow, Russian Federation}
+	{Sept. 2007~-~Jun. 2011}
+	{Degree validated by the National Ministry of Education according to resolution No. 527 of January 17, 2014.}
+	{4.5/5}
+	{Design and evaluation of a SDR detection algorithm for the GLONASS GNSS system}
+	{	
+
+	}
+	{Radio electronic systems}
+	
+	\prepentryen
+	{Certificate of Preparatory Course Completion}
+	{Russian University of Peoples' Friendship}
+	{Moscow, Russian Federation}
+	{Sept. 2006~-~Jun. 2007}
+	{Russian language and science foundation course for foreign students.}
+	{5/5}
+	{}
+	{
+		\begin{cvitems}
+			\item Russian language and science foundation course for foreign students.
+			\item Study Scholarship from the Government of the Russian Federation/ICETEX.
+		\end{cvitems}
+	}
+	{}
+	
+	\vspace{18pt}
+	\colentry
+	{Academic High School Diploma}
+	{Colegio Liceo León de Greiff}
+	{Cereté, Colombia}
+	{1997~-~2002}
+	{Distinguished student. Best ICFES results.}
+	{}
+	{}
+	{
+	}
+	{}
+	
+	
+	
+	
+\end{cventries}
+
+\cvsection{Professional Experience}
+
+\begin{cventries}
+	
+	\cventry
+	{Assistant Professor {\enskip\cdotp\enskip} Electronic Engineering Program (School of Exact Sciences and Engineering)}
+	{Sergio Arboleda University}
+	{Bogotá, Colombia}
+	{Jul. 2014 - Present}
+	{
+		\begin{cvitems}
+			\item Development of undergraduate courses: Introduction to the Internet of Things, Design of IoT Devices, Digital Signal Processing, Linear Systems Theory, Signal Analysis, Digital Systems.
+			\item Development of postgraduate courses: Deep Learning and time series (Master's in Artificial Intelligence), Tools for the 4.0 world - \textit{Machine Learning} (Master in Innovation Management and Digital Entrepreneurship). 
+			\item Director of the \textit{Internet of Things Research Seedbed}.
+			\item Director of degree projects, classroom work and thesis jury.
+			\item Diplomas:
+			\begin{itemize}[noitemsep]
+				\item Artificial Intelligence: An applied approach - \textit{Deep Learning}
+				\item Introduction and applications in Cloud for IoT - \textit{Hardware Design for IoT devices}
+				\item FIFA/CIES International Sport Management Program - \textit{Technology and Sport}
+				\item Associative Models 4.0 - \textit{Internet of Things}
+				\item Virtual course Huawei/iNNpulsa alliance - \textit{5G Networks}
+			\end{itemize}
+			\item Best Teacher Award, Electronic Engineering Program, 2015.
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Academic Monitor}
+	{Mission TIC 2022 - Sergio Arboleda University}
+	{Bogotá, Colombia}
+	{May. - Dec. 2021 {\cdotp} May. 2022 - Nov. 2022}
+	{
+		Monitor Route 2
+		\vspace{12pt}
+		\begin{cvitems}
+			\item Support in managing the educational process.
+			\item Promote the implementation of innovative proposals to optimize the exercise of academic tutoring.
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Adjunct Professor {\enskip\cdotp\enskip} Faculty of Engineering and Basic Sciences}
+	{Central University}
+	{Bogotá, Colombia}
+	{February. 2022 - December. 2022}
+	{
+		\begin{cvitems}
+			\item Development of postgraduate courses: \textit{Internet of Things} (Master in Data Analytics).
+			\item Development of undergraduate courses: Digital Signal Processing, Digital Circuits with HDL, Electronic Engineering Practice IV.
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Adjunct Professor {\enskip\cdotp\enskip} Academic Area Industries and Digital Technologies}
+	{Jorge Tadeo Lozano University of Bogotá}
+	{Bogotá, Colombia}
+	{Jul. 2020 - Dec. 2021}
+	{
+		\begin{cvitems}
+			\item Development of undergraduate courses: Artificial Intelligence, Research Seedbed \textit{Industries 4.0}, Solution Factory.
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Hardware/Software Developer Engineer and Researcher}
+	{Center of Excellence and Appropriation in Internet of Things (CEA-IoT) - Pontificia Universidad Javeriana}
+	{Bogotá, Colombia}
+	{Jan. 2016 - Dec. 2019}
+	{
+		\begin{cvitems}
+			\item Design and development of custom solutions for various commercial verticals in Colombia.
+			\item Project formulation.
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Doctoral Internship}
+	{Bauman Moscow State Technical University {\enskip\cdotp\enskip} Intelligent Systems Laboratory}
+	{Moscow, Russia}
+	{Sept. 2019 - Dec. 2019}
+	{
+		\begin{cvitems}
+			\item {Doctoral research Internship under the supervision of Professor Konstantin Neusypin, in which the design and evaluation of non-linear filters for the fusion of heterogeneous sensory information for a location system in indoor environments was carried out.}
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Contract Engineer and ATSEP Instructor - \textit{Air Traffic Safety Electronics Personnel}}
+	{Civil Aeronautics of Colombia}
+	{Bogotá, Colombia}
+	{Feb. 2015 - Oct. 2016}
+	{
+		\begin{cvitems}
+			\item Review and maintenance of aeronautical electronic equipment.
+			\item Instruction of training and update programs to the technical staff of the \textit{Aerocivil}.
+			\item Direction, development, and modernization of Aeronautical Surveillance courses.
+			\item Instruction of training and update programs to the technical staff of the \textit{Aerocivil} in  \textit{Fundamentals of communications, Radar Fundamentals and surveillance, and Satellite Navigation}.
+		\end{cvitems}
+	}
+	
+	
+	\cventry
+	{Full-time Professor  {\enskip\cdotp\enskip} Electronic Engineering Program}
+	{Manuela Beltrán University}
+	{Bogotá, Colombia}
+	{Jan. 2014 - Apr. 2015}
+	{
+		\begin{cvitems}
+			\item Development of undergraduate courses: Analysis of signals and dynamic systems, Communication Fundamentals, Mobile and Satellite Telecommunications, Antennas and Propagation of Electromagnetic Waves, Information Theory.
+			\item Development and modernization of programmatic content, laboratory guides, and courses.
+		\end{cvitems}
+	}
+	
+	   
+	\cventry
+	{Software Development Engineer and Researcher}
+	{JSC VNIIR Progress}
+	{Moscow, Russian Federation}
+	{Jul. 2012 - Feb. 2013}
+	{
+		\begin{cvitems}
+			\item Development and implementation of algorithms for GNSS navigation solutions in an SDR.
+			\item Development of an adaptive block for simultaneous processing of GPS and GLONASS signals in noisy and high interference environments.
+		\end{cvitems}
+	}
+	
+\end{cventries}
+
+\cvsection{Paper list}
+
+{\small \mybibfull{M. Terán, J. Aranda, J. Marín, E. Uchamocha and G. Corzo-Ussa.}
+	{A methodology for signals intelligence using non-conventional techniques and software-defined radio.}
+	{2021 IEEE Colombian Conference on Communications and Computing (COLCOM).}
+	{Cali, 2021.}
+	{10.1109/COLCOM52710.2021.9486297}
+	{https://www.researchgate.net/publication/353435073_A_methodology_for_signals_intelligence_using_non-conventional_techniques_and_software-defined_radio}
+	\vspace{-15pt}
+	
+	\mybibfull{M. Terán, H. Carrillo and C. Parra.}
+	{WLAN-BLE Based Indoor Positioning System using Machine Learning Cloud Services.}
+	{2018 IEEE 2nd Colombian Conference on Robotics and Automation (CCRA).}
+	{Barranquilla, 2018.}
+	{DOI: 10.1109/CCRA.2018.8588127}
+	{https://www.researchgate.net/publication/329953207_WLAN-BLE_Based_Indoor_Positioning_System_using_Machine_Learning_Cloud_Services}
+	\vspace{-15pt}
+	
+	\mybibfull{M. Terán, H. Carrillo and C. Parra.}
+	{Mobility Parameter Estimation for Seamless Indoor-Outdoor Localization Based on Heterogeneous Information Fusion for 4-wheel Vehicles.}
+	{2018 IEEE 2nd Colombian Conference on Robotics and Automation (CCRA).}
+	{Barranquilla, 2018.}
+	{DOI: 10.1109/CCRA.2018.8588142}
+	{https://www.researchgate.net/publication/329953522_Mobility_Parameter_Estimation_for_Seamless_Indoor-Outdoor_Localization_Based_on_Heterogeneous_Information_Fusion_for_4-wheel_Vehicles}
+	\vspace{-15pt}
+	
+	\mybibfull{J. Alonso, C. Bayona, O. Rojas, M. Terán, J. Aranda, H. Carrillo and C. Parra.}
+	{IoT Solution for Data Sensing in a Smart Campus using Smartphone Sensors.}
+	{2018 IEEE Colombian Conference on Communications and Computing (COLCOM).}
+	{Medellín, 2018.}
+	{DOI: 10.1109/ColComCon.2018.8466707}
+	{https://www.researchgate.net/publication/327786362_IoT_Solution_for_Data_Sensing_in_a_Smart_Campus_using_Smartphone_Sensors}
+	\vspace{-15pt}
+	
+	\newpage
+	
+	\mybibfull{M. Terán, J. Aranda, H. Carrillo, D. Mendez and C. Parra.}
+	{IoT-based System for indoor location using Bluetooth Low Energy.}
+	{2017 IEEE Colombian Conference on Communications and Computing (COLCOM).}
+	{Cartagena, 2017, pp. 1-6.}
+	{DOI: 10.1109/ColComCon.2017.8088211}
+	{https://www.researchgate.net/publication/319038125_IoT-based_System_for_Indoor_Location_using_Bluetooth_Low_Energy}
+	\vspace{-15pt}
+	
+	%\mybibfull{Vlasov I.B., Gavrilov A.I., Teran M.T.}
+	%{Developing an algorithm for extracting navigation data from GNSS signals.}
+	%{Journal \textit{Science and Education}.}
+	%{Vol. 12, 2012.}
+	%{DOI: 10.7463/1212.0496837}
+	%{https://www.researchgate.net/publication/272881787_Developing_an_algorithm_for_extracting_navigation_data_from_GNSS_signals}
+	%\vspace{-10pt}
+	
+	\mybibfull{Vlasov I.B., Gavrilov A.I., Teran M.T.}
+	{Developing an algorithm for extracting navigation data from GNSS signals.}
+	{Journal \textit{Science and Education}.}
+	{Vol. 12, 2012.}
+	{DOI: 10.7463/1212.0496837}
+	{https://www.researchgate.net/publication/272881787_Developing_an_algorithm_for_extracting_navigation_data_from_GNSS_signals}
+	\vspace{-15pt}}
+
+\cvsection{Skills}
+
+\cvsubsection{Languages}
+\begin{cvlanguages}
+	\languages
+	{English}{Advanced}{Russian}{Advanced}{Spanish}{Native}
+\end{cvlanguages}
+
+\cvsubsection{Technical}
+\begin{technicalskills}
+	\techskill
+	{Software:}{Matlab \& Simulink, Scilab, Mathcad, Anaconda, VS code, Altium Designer, KiCAD, Eagle, Arduino IDE, GNU Radio, CURA, Formlabs, FEKO} %Multisim FEKO,  MS Project, MS Excel, AutoCAD, Xilinx ISE Design Suite. 
+	\techskill
+	{Programming languages:}{C/C++, Matlab, Python, TensorFLow, Keras, Scikit-Learn, Keras, NumPy, Pandas, VHDL, Assembly, Linux, \LaTeX{}} %Fortran,
+\end{technicalskills}
+
+\cvsubsection{Research interests}
+\\
+{\footnotesize Machine Learning, Deep Learning, Indoor Positioning, Signal Processing, DSP, Internet of Things, PCB and hardware design,
+	Sensor fusion, GNSS, RADAR, RF Communications, New pedagogical methods of learning.}
+
+\cvsubsection{Strengths}
+{\footnotesize Proactive, Responsible, Disciplined, Passionate, Reliable.}
+\vspace{12pt}
+
+\cvsection{Awards and recognitions}
+%\cvsubsection{International}
+\begin{cvhonors}
+	\cvhonor
+	{Full Time Professor of the year}
+	{Electronic Engineering, Universidad Sergio Arboleda}
+	{Bogota, Colombia}
+	{2017}
+	
+	\cvhonor
+	{Ph.D. Scholarship}
+	{Center of Excellence and Adoption on Internet of Things (CEA-IoT), Colombian ICT Ministry and Colciencias}
+	{Bogota, Colombia}
+	{2015}
+	
+	\cvhonor
+	{Silver medal}
+	{Bauman Moscow State Technical University}
+	{Moscow, Russia}
+	{2013}
+	
+	\cvhonor
+	{Red Diploma}
+	{Bauman Moscow State Technical University}
+	{Moscow, Russia}
+	{2013}
+	
+	\cvhonor
+	{Graduate Scholarship}
+	{Government of the Russian Federation}
+	{Moscow, Russia}
+	{2011}
+	
+	\cvhonor
+	{30th Anniversary Gold Medal}
+	{Liceo León de Greiff School}
+	{Cerete, Colombia}
+	{2007}
+	
+	\cvhonor
+	{Full scholarship for studies}
+	{Government of the Russian Federation/ICETEX}
+	{Bogota, Colombia}
+	{2006}
+	
+	\cvhonor
+	{Roble Amarillo Scolarship}
+	{Universidad del Norte}
+	{Barranquilla, Colombia}
+	{2002}
+	
+	\cvhonor
+	{Andrés Bello Award}
+	{Ministry of National Education}
+	{Bogota, Colombia}
+	{2002}
+\end{cvhonors}
